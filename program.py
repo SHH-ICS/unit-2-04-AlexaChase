@@ -14,6 +14,8 @@ for myNumber in range(32):
     print('Buzz')
   elif myNumber% 15==0:
     print('FizzBuzz')
+  else:
+    print(str(myNumber))
   result = str(result) + str(myNumber) + "\n"
 
 print(result)
