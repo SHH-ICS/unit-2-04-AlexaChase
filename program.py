@@ -7,14 +7,13 @@
 # End at 32
 
 result = ""
-for myNumber in range(32):
-  if myNumber% 3==0:
-    print('Fizz')
+for myNumber in range(1,33):
+  if myNumber% 15==0:
+    myNumber= ('FizzBuzz')
+  elif myNumber% 3==0:
+    myNumber= ('Fizz')
   elif myNumber% 5==0:
-    print('Buzz')
-  elif myNumber% 15==0:
-    print('FizzBuzz')
+    myNumber= ('Buzz')
   else:
-    print(str(myNumber))
-  result = str(result) + str(myNumber) + "\n"
-print(result)
+    myNumber=(str(myNumber))
+result = str(result) + str(myNumber) + "\n"
