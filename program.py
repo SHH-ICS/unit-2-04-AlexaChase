@@ -3,7 +3,7 @@
 # Start at 1
 # For multiples of 3, output   Fizz
 myNumber = int(input())
-if myNumber = (*3)
+if myNumber = (%3==0)
   print('Fizz')
 # For multiples of 5, output   Buzz
 # For multiples of 15, output   FizzBuzz
