@@ -16,4 +16,4 @@ for myNumber in range(1,33):
     myNumber= ('Buzz')
   else:
     myNumber=(str(myNumber))
-result = str(result) + str(myNumber) + "\n"
+  result = str(result) + str(myNumber) + "\n"
