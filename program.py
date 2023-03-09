@@ -17,5 +17,4 @@ for myNumber in range(32):
   else:
     print(str(myNumber))
   result = str(result) + str(myNumber) + "\n"
-
 print(result)
